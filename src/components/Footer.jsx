@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import "../styles/footer.css";
-import { Download, Mail, Phone } from "lucide-react";
+import { Download, Mail } from "lucide-react";
 
 const LinkedIn = () => {
   return (
@@ -34,7 +34,10 @@ const Footer = () => {
       <div className="h-full flex flex-col justify-between">
         <h1 className="text-red-700 neon">Contactez-moi</h1>
         <section className="flex justify-evenly flex-wrap lg:gap-8 gap-20 px-10 py-16">
-          <a href="/Loic_Turpin_CV.pdf" target="_blank">
+          <a
+            href={`${import.meta.env.BASE_URL}Loic_Turpin_CV.pdf`}
+            target="_blank"
+          >
             <ContactElement icon={<Download />} text="Mon CV" />
           </a>
 
@@ -48,8 +51,6 @@ const Footer = () => {
           >
             <ContactElement icon={<LinkedIn />} text="LinkedIn" />
           </a>
-
-          {/* <ContactElement icon={<Phone />} text="06 28 62 45 36" /> */}
         </section>
         <p className="h-20 flex items-center justify-center border-t border-neutral-500">
           ©{new Date().getFullYear()}, Loïc Turpin, Développeur Web

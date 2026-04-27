@@ -8,7 +8,7 @@ const Presentation = ({ data }) => {
     >
       <h1>À propos de moi</h1>
       <p className="py-10">{data.presentation}</p>
-      <a href="/Loic_Turpin_CV.pdf" target="_blank">
+      <a href={`${import.meta.env.BASE_URL}Loic_Turpin_CV.pdf`} target="_blank">
         <button className=" w-full md:w-fit">Mon CV</button>
       </a>
     </section>
