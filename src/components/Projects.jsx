@@ -197,7 +197,7 @@ const VideosProjects = ({
           />
 
           {/* OVERLAY IMAGE */}
-          <img src={image} alt={titre} />
+          <img src={`${import.meta.env.BASE_URL}${image}`} alt={titre} />
           {!isOpen && (
             <h2 className="absolute bottom-0 px-3 py-1.5 text-2xl font-bold text-shadow-xs hidden lg:block">
               {titre}
@@ -253,7 +253,7 @@ const VideosProjects = ({
 const WebProjects = ({ image, titre, equipe, date, lien, description }) => {
   return (
     <motion.div variants={fadeScale} className="boxWeb">
-      <img src={image} alt={titre} />
+      <img src={`${import.meta.env.BASE_URL}${image}`} alt={titre} />
 
       <div className="p-6 lg:p-0 lg:ml-80 lg:pr-6 lg:pt-4 lg:h-75">
         <h2 className="font-bold text-3xl pb-5">{titre}</h2>
@@ -289,7 +289,11 @@ const GamesProjects = ({
       <ParticlesBackground id={`particles-${titre}`} />
 
       <div className="flex flex-col xl:flex-row justify-between gap-5 relative z-10">
-        <img className="w-full xl:w-1/2 my-auto" src={image} alt={titre} />
+        <img
+          className="w-full xl:w-1/2 my-auto"
+          src={`${import.meta.env.BASE_URL}${image}`}
+          alt={titre}
+        />
 
         <div className="px-6">
           <h2 className="text-4xl font-bold pb-1">{titre}</h2>

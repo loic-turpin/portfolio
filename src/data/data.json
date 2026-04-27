@@ -3,7 +3,7 @@
 
   "sitesWeb": [
     {
-      "image": "/portfolio/img/tesla.avif",
+      "image": "img/tesla.avif",
       "titre": "Site Web sur la marque de voiture Tesla",
       "equipe": "• Projet en équipe",
       "date": "• Réalisé en 2019",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/teso.avif",
+      "image": "img/teso.avif",
       "titre": "Site Web sur un jeu vidéo",
       "equipe": "• Projet individuel",
       "date": "• Réalisé en 2020",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/pirate.avif",
+      "image": "img/pirate.avif",
       "titre": "Site Web d'une histoire interactive",
       "equipe": "• Projet individuel",
       "date": "• Réalisé en 2020",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/jeu2d.avif",
+      "image": "img/jeu2d.avif",
       "titre": "Jeu vidéo avec « Canvas » (Space shooter 2D)",
       "equipe": "• Projet individuel",
       "date": "• Réalisé en 2020",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/trouveIntrus.avif",
+      "image": "img/trouveIntrus.avif",
       "titre": "Mini jeu en Javascript",
       "equipe": "• Projet individuel",
       "date": "• Réalisé en 2021",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/festivalHipster.avif",
+      "image": "img/festivalHipster.avif",
       "titre": "Site Web sur un thème donné",
       "equipe": "• Projet individuel",
       "date": "• Réalisé en 2021",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/ihumanProject.avif",
+      "image": "img/ihumanProject.avif",
       "titre": "Projet intéractif sous pression",
       "equipe": "• Projet en équipe",
       "date": "• Réalisé en 2021",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/passwordGenerator.avif",
+      "image": "img/passwordGenerator.avif",
       "titre": "Générateur de mot de passe",
       "equipe": "• Projet perso",
       "date": "• Réalisé en 2025",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "image": "/portfolio/img/livreRecette.avif",
+      "image": "img/livreRecette.avif",
       "titre": "Livre de recette",
       "equipe": "• Projet perso",
       "date": "• Réalisé en 2026",
@@ -114,7 +114,7 @@
   "audiovisuel": [
     {
       "video": "8yLP2mqjsbU",
-      "image": "/portfolio/img/beats.avif",
+      "image": "img/beats.avif",
       "titre": "Beats",
       "typeEtDate": "Animation de logo | 2019",
       "cours": "• Réalisé dans le cadre du cours d’animation.",
@@ -124,7 +124,7 @@
     },
     {
       "video": "n1vbGA7NkNw",
-      "image": "/portfolio/img/jimmy.avif",
+      "image": "img/jimmy.avif",
       "titre": "Jimmy",
       "typeEtDate": "Stop motion | 2019",
       "cours": "• Réalisé dans le cadre du cours d’animation.",
@@ -134,7 +134,7 @@
     },
     {
       "video": "eNuNv51oi-M",
-      "image": "/portfolio/img/stickman.avif",
+      "image": "img/stickman.avif",
       "titre": "Stickman",
       "typeEtDate": "Court métrage | 2019",
       "cours": "• Réalisé dans le cadre du cours d’animation.",
@@ -144,7 +144,7 @@
     },
     {
       "video": "6VfLXh6FWqI",
-      "image": "/portfolio/img/erreur_404.avif",
+      "image": "img/erreur_404.avif",
       "titre": "Erreur 404",
       "typeEtDate": "Motion design | 2020",
       "cours": "• Réalisation personnelle.",
@@ -154,7 +154,7 @@
     },
     {
       "video": "WuhghZiZ19Y",
-      "image": "/portfolio/img/discord.avif",
+      "image": "img/discord.avif",
       "titre": "Discord",
       "typeEtDate": "Animation de logo | 2021",
       "cours": "• Réalisé dans le cadre du cours de motion design.",
@@ -164,7 +164,7 @@
     },
     {
       "video": "WDlMXax4RwA",
-      "image": "/portfolio/img/tp3_montage.avif",
+      "image": "img/tp3_montage.avif",
       "titre": "Tourisme Gaspésie",
       "typeEtDate": "Vidéo publicitaire | 2020",
       "cours": "• Réalisé dans le cadre du cours de montage vidéo.",
@@ -174,7 +174,7 @@
     },
     {
       "video": "nLprfn7zLlc",
-      "image": "/portfolio/img/polar.avif",
+      "image": "img/polar.avif",
       "titre": "Polar",
       "typeEtDate": "Motion design | 2021",
       "cours": "• Réalisé dans le cadre du cours de motion design.",
@@ -184,7 +184,7 @@
     },
     {
       "video": "Iw_DNI4GqmE",
-      "image": "/portfolio/img/ski.avif",
+      "image": "img/ski.avif",
       "titre": "Esprit Libre",
       "typeEtDate": "Motion design | 2021",
       "cours": "• Réalisé dans le cadre du cours de motion design.",
@@ -195,7 +195,7 @@
   ],
   "jeuxVideo": [
     {
-      "image": "/portfolio/img/ceiba.webp",
+      "image": "img/ceiba.webp",
       "titre": "Ceiba",
       "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2021",
       "description": [
@@ -206,7 +206,7 @@
       "download": "Ceiba.zip"
     },
     {
-      "image": "/portfolio/img/swordash.avif",
+      "image": "img/swordash.avif",
       "titre": "SworDash",
       "typeLogicielEtDate": "Jeu multi 2D | Unity C# | 2021",
       "description": [
@@ -217,7 +217,7 @@
       "download": "SworDash.zip"
     },
     {
-      "image": "/portfolio/img/monsterTruck.avif",
+      "image": "img/monsterTruck.avif",
       "titre": "Monster Truck",
       "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2021",
       "description": [
@@ -228,7 +228,7 @@
       "download": "Monster_truck.zip"
     },
     {
-      "image": "/portfolio/img/keepDrawing.avif",
+      "image": "img/keepDrawing.avif",
       "titre": "Keep Drawing",
       "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2022",
       "description": [
