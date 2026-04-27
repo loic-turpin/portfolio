@@ -1,0 +1,147 @@
+.matrix-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Scanlines effet écran */
+
+/* Rouge */
+
+.matrix-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    #170024 0px,
+    #170024 1px,
+    transparent 2px,
+    transparent 4px
+  );
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+
+/* Vert */
+
+/*
+.matrix-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 0, 0.08) 0px,
+    rgba(0, 255, 0, 0.08) 1px,
+    transparent 2px,
+    transparent 4px
+  );
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+*/
+
+/* Loader barres glitch */
+
+.matrix-loader {
+  display: flex;
+  gap: 10px;
+}
+
+/* Rouge */
+
+.matrix-loader span {
+  width: 8px;
+  height: 100px;
+  box-shadow:
+    0 0 4px #ff1a1a,
+    0 0 8px #ff1a1a,
+    0 0 16px #ff1a1a,
+    0 0 32px #ff0000,
+    0 0 64px #ff0000;
+  animation: matrixPulse 1s infinite ease-in-out;
+}
+
+/* Vert */
+
+/*
+.matrix-loader span {
+  width: 8px;
+  height: 40px;
+  background: #00ff41;
+  box-shadow:
+    0 0 5px #00ff41,
+    0 0 10px #00ff41,
+    0 0 20px #00ff41;
+  animation: matrixPulse 1s infinite ease-in-out;
+}
+*/
+
+.matrix-loader span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.matrix-loader span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.matrix-loader span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.matrix-loader span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.matrix-loader span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.matrix-loader span:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.matrix-loader span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+.matrix-loader span:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+.matrix-loader span:nth-child(9) {
+  animation-delay: 1.6s;
+}
+
+/* Animation des barres */
+
+@keyframes matrixPulse {
+  0%,
+  100% {
+    transform: scaleY(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scaleY(1.8);
+    opacity: 1;
+  }
+}
+
+/* Effet glitch lumineux */
+
+@keyframes flicker {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}

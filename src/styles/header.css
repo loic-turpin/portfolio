@@ -1,0 +1,24 @@
+.typeAnimation {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.typeAnimation::after {
+  font-size: larger;
+  color: var(--primary);
+  transition: opacity 1s;
+  animation: blinking 1s infinite cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+@keyframes blinking {
+  50% {
+    opacity: 0;
+  }
+}
+
+.arrowDown {
+  width: 200px;
+}

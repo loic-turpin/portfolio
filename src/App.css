@@ -1,0 +1,125 @@
+@import "tailwindcss";
+.fadeEnter {
+  opacity: 0;
+  animation: fadeEnter 0.5s ease forwards;
+}
+
+@keyframes fadeEnter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* --- HeaderBar --- */
+
+.header-bar {
+  position: fixed;
+  top: 0;
+  height: 120px;
+  width: 100%;
+  z-index: 10;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(4px);
+}
+
+a {
+  transition:
+    transform 0.15s ease,
+    color 0.15s ease;
+  /*------------------------*/
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      color: red;
+      transform: scale(1.05);
+    }
+  }
+  &:active {
+    color: red;
+    transform: scale(1.05);
+  }
+}
+
+.logo {
+  cursor: pointer;
+  width: 70px;
+  opacity: 0.75;
+  transition:
+    transform 0.15s ease,
+    opacity 0.15s ease;
+  /*------------------------*/
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: scale(1.02);
+      opacity: 1;
+      filter: drop-shadow(0 0 8px red);
+    }
+  }
+  &:active {
+    transform: scale(0.95);
+    opacity: 1;
+    filter: drop-shadow(0 0 8px red);
+  }
+}
+
+.btnMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  background: transparent;
+  border-radius: 0 0 0 40%;
+  box-shadow: none;
+  z-index: 10;
+}
+
+nav {
+  width: 100%;
+  padding: 120px 0 60px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: var(--app-bg);
+  border: solid 1px #323232;
+  z-index: 9;
+  transform: translateY(-100%);
+  transition: transform 0.2s ease;
+}
+
+nav.open {
+  transform: translateY(0);
+}
+
+nav ul {
+  padding: 0 40px;
+}
+
+nav li {
+  height: 60px;
+  display: grid;
+  align-items: center;
+  border-bottom: solid 1px #323232;
+}
+
+hr {
+  border-color: #323232;
+}
+
+/*--- RESPONSIVE ---*/
+
+@media (min-width: 768px) {
+  nav {
+    width: 350px;
+    padding: 120px 0 60px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: var(--app-bg);
+    border: solid 1px #323232;
+    z-index: 9;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
+  }
+}

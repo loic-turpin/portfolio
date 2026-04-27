@@ -1,0 +1,242 @@
+{
+  "presentation": "Je suis diplômé d’un DEC en technique d’intégration multimédia obtenue au Cégep de Matane au Québec. Passionné de programmation, je me suis spécialiser dans le developpement web. Je maitrise les langages de programmation: HTML, CSS, JavaScript et C#, ainsi que le CMS Wordpress. Je maitrise également plusieurs logiciels de la suite Adobe tel que: Première Pro, After Effects, Illustrator et Adobe XD.",
+
+  "sitesWeb": [
+    {
+      "image": "/img/tesla.avif",
+      "titre": "Site Web sur la marque de voiture Tesla",
+      "equipe": "• Projet en équipe",
+      "date": "• Réalisé en 2019",
+      "lien": "/sitesWeb/tesla/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de conception Web. Je me suis occupé de toute la partie JS et d’une partie du CSS.",
+        "• Commande : Réaliser un site Web sur une marque connue, inclure une galerie d’image, un formulaire, des témoignages, ainsi que quelques informations sur la marque.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/teso.avif",
+      "titre": "Site Web sur un jeu vidéo",
+      "equipe": "• Projet individuel",
+      "date": "• Réalisé en 2020",
+      "lien": "/sitesWeb/teso/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours d’ergonomie Web.",
+        "• Commande : Réaliser un site Web responsive de type « one page » sur un jeu vidéo connu, inclure un favicon, une police de caractère non standard, des captures d’écran du jeu ainsi que quelques informations.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/pirate.avif",
+      "titre": "Site Web d'une histoire interactive",
+      "equipe": "• Projet individuel",
+      "date": "• Réalisé en 2020",
+      "lien": "/sitesWeb/chasseAuTresor/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de programmation de l’interactivité.",
+        "• Commande : Réaliser un site Web responsive d'une histoire à choix multiple, inclure un favicon, au moins 2 mini jeux, et une police de caractère non standard.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/jeu2d.avif",
+      "titre": "Jeu vidéo avec « Canvas » (Space shooter 2D)",
+      "equipe": "• Projet individuel",
+      "date": "• Réalisé en 2020",
+      "lien": "./sitesWeb/spaceShooter2D/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de programmation de l’interactivité.",
+        "• Commande : Réaliser un mini jeu en JavaScript utilisant le « Canvas », inclure un favicon, un écran de début et de fin de partie, et au moins 3 fonctionnalités.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/trouveIntrus.avif",
+      "titre": "Mini jeu en Javascript",
+      "equipe": "• Projet individuel",
+      "date": "• Réalisé en 2021",
+      "lien": "/sitesWeb/trouveLintrus/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de conception intéractive.",
+        "• Commande : Conceptualiser et réaliser un jeu simple en Javascript. L’application doit être intégrée sur la Plateforme Web développée à cet effet.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/festivalHipster.avif",
+      "titre": "Site Web sur un thème donné",
+      "equipe": "• Projet individuel",
+      "date": "• Réalisé en 2021",
+      "lien": "/sitesWeb/festivalHipster/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de production multimédia.",
+        "• Commande : Réaliser le site Web d’un festival fictif qui aura lieu dans la fin de semaine du 25 septembre 2021. Cet événement culminera par une soirée spectacle le samedi avec un groupe et/ou un(e) artiste vedette invité(e).",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/ihumanProject.avif",
+      "titre": "Projet intéractif sous pression",
+      "equipe": "• Projet en équipe",
+      "date": "• Réalisé en 2021",
+      "lien": "/sitesWeb/ihumanProject/index.html",
+      "description": [
+        "• Réalisé dans le cadre du cours de production multimédia. J'étais en charge de toute la programmation.",
+        "• Commande : L’un de nos meilleurs clients a besoin d’un projet interactif ludique en ligne pour l’événement qu’il organise samedi prochain. Il s’agit d’un symposium qui porte sur l’intelligence artificielle (IA) où de nombreuses conférences auront lieu avec des sommités du domaine.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/passwordGenerator.avif",
+      "titre": "Générateur de mot de passe",
+      "equipe": "• Projet perso",
+      "date": "• Réalisé en 2025",
+      "lien": "https://loic-turpin-password-generator.vercel.app",
+      "description": [
+        "• Réalisation personnelle pour m'exercer au JavaScript.",
+        "• Mini application de générateur de mot de passe aléatoire avec des paramètres modifiables.",
+        "• Langages de programmation utilisés : HTML, CSS, JS."
+      ]
+    },
+    {
+      "image": "/img/livreRecette.avif",
+      "titre": "Livre de recette",
+      "equipe": "• Projet perso",
+      "date": "• Réalisé en 2026",
+      "lien": "https://8jxnee.mimo.run/",
+      "description": [
+        "• Réalisation personnelle pour apprendre à utiliser React.",
+        "• Application de livre de recette personnel orienté mobile. Développer sur l'application mobile MIMO.",
+        "• Langages de programmation utilisés : HTML, CSS, JS, React."
+      ]
+    }
+  ],
+  "audiovisuel": [
+    {
+      "video": "8yLP2mqjsbU",
+      "image": "/img/beats.avif",
+      "titre": "Beats",
+      "typeEtDate": "Animation de logo | 2019",
+      "cours": "• Réalisé dans le cadre du cours d’animation.",
+      "commande": "• Commande : Réaliser une animation de logos d’une marque au choix, inclure un slogan, une musique, et au moins un changement d’angle (impression de 3D).",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : After Effects"
+    },
+    {
+      "video": "n1vbGA7NkNw",
+      "image": "/img/jimmy.avif",
+      "titre": "Jimmy",
+      "typeEtDate": "Stop motion | 2019",
+      "cours": "• Réalisé dans le cadre du cours d’animation.",
+      "commande": "• Commande : Réaliser un stop motion d’environ 1 minute sur un sujet au choix.",
+      "equipe": " • Projet en équipe : Je me suis occupé de bouger notre personnage pendant le tournage, et j’ai également fait le montage vidéo final.",
+      "logiciels": "• Logiciel utilisé : Première Pro, After Effects"
+    },
+    {
+      "video": "eNuNv51oi-M",
+      "image": "/img/stickman.avif",
+      "titre": "Stickman",
+      "typeEtDate": "Court métrage | 2019",
+      "cours": "• Réalisé dans le cadre du cours d’animation.",
+      "commande": "• Commande : Réaliser un court-métrage d’animation simple d’environ 1 minute.",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : Première Pro, Illustrator, Animate"
+    },
+    {
+      "video": "6VfLXh6FWqI",
+      "image": "/img/erreur_404.avif",
+      "titre": "Erreur 404",
+      "typeEtDate": "Motion design | 2020",
+      "cours": "• Réalisation personnelle.",
+      "commande": "• Création d'une animation pour participer au concours du cegep qui avait pour but de mettre à jour la page d'erreur 404 du serveur de l'établissement.",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : After Effects"
+    },
+    {
+      "video": "WuhghZiZ19Y",
+      "image": "/img/discord.avif",
+      "titre": "Discord",
+      "typeEtDate": "Animation de logo | 2021",
+      "cours": "• Réalisé dans le cadre du cours de motion design.",
+      "commande": "• Commande : Réaliser une animation de logo selon ses composants, ses caractéristiques, ses produits ou services offerts.",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : After Effects"
+    },
+    {
+      "video": "WDlMXax4RwA",
+      "image": "/img/tp3_montage.avif",
+      "titre": "Tourisme Gaspésie",
+      "typeEtDate": "Vidéo publicitaire | 2020",
+      "cours": "• Réalisé dans le cadre du cours de montage vidéo.",
+      "commande": " • Commande : Réaliser le montage d’une publicité pour la prochaine saison touristique de Tourisme Îles de la madeleine.",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : Première Pro"
+    },
+    {
+      "video": "nLprfn7zLlc",
+      "image": "/img/polar.avif",
+      "titre": "Polar",
+      "typeEtDate": "Motion design | 2021",
+      "cours": "• Réalisé dans le cadre du cours de motion design.",
+      "commande": " • Commande : Réaliser la présentation d’une marque sportive/produit sportif en motion design. La présentation se fait à l’aide d’informations, de statistiques et autres éléments importants pour le produit et la marque.",
+      "equipe": "• Projet individuel",
+      "logiciels": "• Logiciel utilisé : Premiere Pro, After Effects"
+    },
+    {
+      "video": "Iw_DNI4GqmE",
+      "image": "/img/ski.avif",
+      "titre": "Esprit Libre",
+      "typeEtDate": "Motion design | 2021",
+      "cours": "• Réalisé dans le cadre du cours de motion design.",
+      "commande": "• Commande : Réaliser une conception graphique animée sous After-Effects d’un mandat client au choix. Pour ce mandat 2 clips doivent être réalisé.",
+      "equipe": " • Projet en équipe. J'ai réalisé le montage sur le ski et mon collègue celui sur les motoneiges.",
+      "logiciels": "• Logiciel utilisé : Premiere Pro, After Effects"
+    }
+  ],
+  "jeuxVideo": [
+    {
+      "image": "/img/ceiba.webp",
+      "titre": "Ceiba",
+      "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2021",
+      "description": [
+        "• Réalisé dans le cadre du cours de réalisation multimédia. J'étais en charge de la programmation des menus et de la création des musiques et effet sonore.",
+        "• Ceiba est un jeu vidéo narratif multiple racontant l’exploration d’un archéologue parti en quête de découverte. Le joueuer aura la possibilité d’incarner deux histoires, celle de l’explorateur, et celle du chaman."
+      ],
+      "lien": "https://www.dropbox.com/scl/fi/sqtseoxjvfjtatjz7sr8d/Ceiba.zip?rlkey=ac0dso4o1tloxbnlmgpfhtn7a&st=vupui6xx&dl=1",
+      "download": "Ceiba.zip"
+    },
+    {
+      "image": "/img/swordash.avif",
+      "titre": "SworDash",
+      "typeLogicielEtDate": "Jeu multi 2D | Unity C# | 2021",
+      "description": [
+        "• Réalisé dans le cadre du cours de conception interactive. J'étais en charge de la programmation des menus et des effet sonores.",
+        "• SworDash est un jeu vidéo style versus rappelant les jeux d’arcade. Le jeu vous propose d’affronter votre adversaire lors d’un combat amusant et surtout très dynamique, ou la vitesse d’exécutions sera le principal composant de votre victoire."
+      ],
+      "lien": "https://www.dropbox.com/scl/fi/fsjp64tuhg98l2s2fmue4/SworDash.zip?rlkey=336oqqr2kth7dwr1s6peffqd6&st=u6iek8n6&dl=1",
+      "download": "SworDash.zip"
+    },
+    {
+      "image": "/img/monsterTruck.avif",
+      "titre": "Monster Truck",
+      "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2021",
+      "description": [
+        "• Réalisé dans le cadre du cours d'application interactive. J'étais en charge de toute la programmation.",
+        "• Monster Truck est un jeu de conduite en 2D et en vue de côté. L’objectif principal est de faire un maximum de point en ramassant les différents objets sur le terrain et en effectuant des acrobaties avec le véhicule."
+      ],
+      "lien": "https://www.dropbox.com/scl/fi/x0p8241mijjlyh00j15hw/Monster_truck.zip?rlkey=qz3aoigpksfqtxaf98a3mwtte&st=xen1znks&dl=1",
+      "download": "Monster_truck.zip"
+    },
+    {
+      "image": "/img/keepDrawing.avif",
+      "titre": "Keep Drawing",
+      "typeLogicielEtDate": "Jeu solo 2D | Unity C# | 2022",
+      "description": [
+        "• Réalisé dans le cadre du projet de fin d'étude. Je me suis occupé de toute la programmation.",
+        "• Keep Drawing est un jeu de plateforme où vous incarnez un enfant débordant d'imagination qui rentre chez lui. Vous contrôler également son ami imaginaire qui lui permettra de surmonter les obstacles qui se dresseront sur son chemin."
+      ],
+      "lien": "https://www.dropbox.com/scl/fi/adj4ymrwnun1e28ti84dz/Keep_Drawing.zip?rlkey=yfqdx3rsfctffrlyj5gt0bmez&st=2dus8uou&dl=1",
+      "download": "Keep_Drawing.zip"
+    }
+  ]
+}

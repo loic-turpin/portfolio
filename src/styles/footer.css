@@ -1,0 +1,40 @@
+footer {
+  background: var(--app-bg);
+}
+
+@keyframes neonFlicker {
+  /* 🔥 Phase glitch (0% → ~20%) */
+  0%,
+  2%,
+  8%,
+  18%,
+  20% {
+    text-shadow:
+      0 0 5px #b91c1c,
+      0 0 10px #b91c1c,
+      0 0 20px #b91c1c,
+      0 0 40px #b91c1c,
+      0 0 80px #b91c1c;
+  }
+  1%,
+  3%,
+  19%,
+  20% {
+    text-shadow: none;
+  }
+  /* 💡 Phase stable (20% → 100%) */
+  20%,
+  100% {
+    text-shadow:
+      0 0 5px #b91c1c,
+      0 0 10px #b91c1c,
+      0 0 20px #b91c1c,
+      0 0 40px #b91c1c,
+      0 0 80px #b91c1c;
+  }
+}
+
+.neon {
+  color: #fff;
+  animation: neonFlicker 5s infinite;
+}
