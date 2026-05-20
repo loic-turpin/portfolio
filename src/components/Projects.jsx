@@ -321,7 +321,7 @@ const Projects = ({ data }) => {
   const [activeVideo, setActiveVideo] = useState(null);
 
   return (
-    <section id="projects" className="min-h-dvh">
+    <section id="projects" className="min-h-screen">
       <div className="lg:text-left flex flex-col lg:flex-row lg:py-20">
         <Nav view={view} setNextView={setView} />
 

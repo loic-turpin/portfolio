@@ -4,7 +4,7 @@ const Presentation = ({ data }) => {
   return (
     <section
       id="presentation"
-      className="text-2xl lg:text-center text-neutral-800 bg-gray-50 px-6 md:px-40 py-32 mt-[100dvh]"
+      className="text-2xl lg:text-center text-neutral-800 bg-gray-50 px-6 md:px-40 py-32 mt-[100vh]"
     >
       <h1>À propos de moi</h1>
       <p className="py-10">{data.presentation}</p>
