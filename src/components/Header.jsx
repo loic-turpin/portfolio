@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="h-screen w-full fixed inset-0 z-[-1] flex items-center justify-center">
+    <header className="h-dvh w-full fixed inset-0 z-[-1] flex items-center justify-center">
       <HeaderAnimation />
 
       {scrollY < 700 && (
